@@ -10,24 +10,25 @@
 <body>
     <div class="app">
         <div class="ancients-container">
-            <div class="ancients-card">
+            <div class="ancients-card Azathoth">
                 <img src="assets\Ancients\Azathoth.png" alt="Azathoth">
             </div>
-            <div class="ancients-card">
+            <div class="ancients-card Cthulthu">
                 <img src="assets\Ancients\Cthulthu.png" alt="Cthulthu">
             </div>
-            <div class="ancients-card">
+            <div class="ancients-card IogSothoth">
                 <img src="assets\Ancients\IogSothoth.png" alt="IogSothoth">
             </div>
-            <div class="ancients-card">
+            <div class="ancients-card ShubNiggurath">
                 <img src="assets\Ancients\ShubNiggurath.png" alt="ShubNiggurath">
             </div>
+            <div>Для понимания логики откройте консоль</div>
         </div>
         <div class="dificulty-container">
             <div class="difficulty-container-hidden">
-                <div class="difficulty">Низкая</div>
-                <div class="difficulty">Средняя</div>
-                <div class="difficulty">Высокая</div>
+                <div class="difficulty easy">Низкая</div>
+                <div class="difficulty normal">Средняя</div>
+                <div class="difficulty hard">Высокая</div>
             </div>
         </div>
         <div class="deck-container">
@@ -39,33 +40,34 @@
                     <div class="stage-container">
                         <span class="stage-text">Первая стадия</span>
                         <div class="dots-container">
-                            <div class="dot green"></div>
-                            <div class="dot brown"></div>
-                            <div class="dot blue"></div>
+                            <div class="dot green-first"></div>
+                            <div class="dot brown-first"></div>
+                            <div class="dot blue-first"></div>
                         </div>
                     </div>
                     <div class="stage-container">
                         <span class="stage-text">Вторая стадия</span>
                         <div class="dots-container">
-                            <div class="dot green"></div>
-                            <div class="dot brown"></div>
-                            <div class="dot blue"></div>
+                            <div class="dot green-second"></div>
+                            <div class="dot brown-second"></div>
+                            <div class="dot blue-second"></div>
                         </div>
                     </div>
                     <div class="stage-container">
                         <span class="stage-text">Третья стадия</span>
                         <div class="dots-container">
-                            <div class="dot green"></div>
-                            <div class="dot brown"></div>
-                            <div class="dot blue"></div>
+                            <div class="dot green-third"></div>
+                            <div class="dot brown-third"></div>
+                            <div class="dot blue-third"></div>
                         </div>
                     </div>
                     <div class="deck"></div>
+                    <div class="current-card"></div>
                 </div>
             </div>
             
         </div>
     </div>
-    <script src="script.js"></script>
+    <script src="dist/bundle.js"></script>
 </body>
 </html>

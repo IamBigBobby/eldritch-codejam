@@ -109,18 +109,24 @@ body{
     justify-content: center;
     width: 30px;
 }
-.green{
+.green-first, .green-second, .green-third{
     background-color: green;
 }
-.brown{
+.brown-first, .brown-second, .brown-third{
     background-color: brown;
 }
-.blue{
+.blue-first, .blue-second, .blue-third{
     background-color: blue;
 }
 .deck{
     background-image: url(assets/mythicCardBackground.png);
     height: 190px;
     width: 130px;
+    margin: 20px;
+    cursor: pointer;
+}
+.current-card{
+    height: 380px;
+    width: 280px;
     margin: 20px;
 }
